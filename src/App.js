@@ -4,13 +4,19 @@ import { View, StyleSheet } from 'react-native'
 // import Oficinal, { Comp1, Comp2 } from './components/Multi'
 // import Primeiro from './components/Primeiro'
 // import MinMax from './components/MinMax'
-import Aleatorio from './components/Aleatorio'
-import Login from './components/Login'
+// import Login from './components/Login'
+// import Aleatorio from './components/Aleatorio'
+// import Titulo from './components/Titulo'
+import Botao from './components/Botao'
+
 
 export default () => (
     <View style={style.App}>
-        <Login />
+        <Botao />
         {/* <Aleatorio min={1} max={60}/>
+        <Titulo principal='Cadastro' 
+                secundario='Tela de cadastro'/>
+        <Login />
         <MinMax min='3' max='20' />
         <MinMax min='1' max='94' />
         <Oficinal />
@@ -23,8 +29,8 @@ export default () => (
     const style = StyleSheet.create({
         App: {
             flex: 1,
-            //justifyContent: 'center',
-            //alignItems: 'center',
-            //padding: 20
+            justifyContent: 'center',
+            alignItems: 'center',
+            padding: 20
         }
     })
