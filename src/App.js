@@ -8,13 +8,14 @@ import { View, StyleSheet } from 'react-native'
 // import Aleatorio from './components/Aleatorio'
 // import Titulo from './components/Titulo'
 // import Botao from './components/Botao'
-import Contador from './components/Contador'
-
+// import Contador from './components/Contador'
+import Pai from './components/direta/Pai'
 
 export default () => (
     <View style={style.App}>
-        <Contador inicial={100} />
+        <Pai />
         {/* 
+        <Contador inicial={100} />
         <Botao />
         <Aleatorio min={1} max={60}/>
         <Titulo principal='Cadastro' 
