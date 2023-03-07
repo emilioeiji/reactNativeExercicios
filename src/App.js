@@ -11,12 +11,21 @@ import { View, StyleSheet } from 'react-native'
 // import Contador from './components/Contador'
 // import Pai from './components/direta/Pai'
 // import Pai from './components/indireta/Pai'
-import ContadorV2 from './components/contador/ContadorV2'
+// import ContadorV2 from './components/contador/ContadorV2'
+// import Diferenciar from './components/Diferenciar'
+// import ParImpar from './components/ParImpar'
+// import UsuarioLogado from './components/UsuarioLogado'
+import ListaProdutos from './components/produtos/ListaProdutos'
+
 
 export default () => (
     <View style={style.App}>
-        <ContadorV2 />
+        <ListaProdutos />
         {/* 
+        <UsuarioLogado usuario={{nome: 'Emilio', email: 'emilio@eiji.com'}} />
+        <ParImpar num={2}/>
+        <Diferenciar />
+        <ContadorV2 />
         <Pai />
         <Pai />
         <Contador inicial={100} />
