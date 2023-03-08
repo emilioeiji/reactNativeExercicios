@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, StyleSheet } from 'react-native'
+import { View, StyleSheet, SafeAreaView } from 'react-native'
 
 // import Oficinal, { Comp1, Comp2 } from './components/Multi'
 // import Primeiro from './components/Primeiro'
@@ -15,13 +15,26 @@ import { View, StyleSheet } from 'react-native'
 // import Diferenciar from './components/Diferenciar'
 // import ParImpar from './components/ParImpar'
 // import UsuarioLogado from './components/UsuarioLogado'
-import ListaProdutos from './components/produtos/ListaProdutos'
+// import ListaProdutos from './components/produtos/ListaProdutos'
+// import ListaProdutosV2 from './components/produtosV2/ListaProdutosV2'
+// import DigiteSeuNome from './components/DigiteSeuNome'
+// import Quadrado from './components/layout/Quadrado'
+// import FlexboxV1 from './components/layout/FlexboxV1'
+// import FlexboxV2 from './components/layout/FlexboxV2'
+// import FlexboxV3 from './components/layout/FlexboxV3'
+import FlexboxV4 from './components/layout/FlexboxV4'
 
 
 export default () => (
-    <View style={style.App}>
-        <ListaProdutos />
+    <SafeAreaView style={style.App}>
+        <FlexboxV4 />
         {/* 
+        <FlexboxV3 />
+        <FlexboxV2 />
+        <FlexboxV1 />
+        <DigiteSeuNome />
+        <ListaProdutosV2 />
+        <ListaProdutos />
         <UsuarioLogado usuario={{nome: 'Emilio', email: 'emilio@eiji.com'}} />
         <ParImpar num={2}/>
         <Diferenciar />
@@ -40,7 +53,7 @@ export default () => (
         <Comp1 />
         <Comp2 />
         <Primeiro /> */}
-    </View>
+    </SafeAreaView>
     )
 
     const style = StyleSheet.create({
